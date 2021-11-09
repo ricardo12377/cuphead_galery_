@@ -1,0 +1,30 @@
+.container {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           padding: 30px;
+           font-size: 40px;
+           box-sizing: border-box;
+}
+
+.container img {
+    width: 30%;
+    height: 400px;
+    justify-content: center;
+    justify-content: flex-end;
+    padding-left: 2%;
+    gap: 2rem;
+    padding-bottom: 3%;
+    position: relative ;
+    margin: 0.2em;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    
+}
+img {
+    box-sizing: content-box;
+    position: relative;
+    z-index: 1;
+}
+

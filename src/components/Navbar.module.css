@@ -1,0 +1,68 @@
+
+.container{
+    background-color: #202420;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    color: #a970ff;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+
+.perfil{
+    margin: 2 auto;
+    color: #a970ff;
+  
+}
+.text{
+    color: #a970ff;
+}
+
+.perfil img {
+    padding: 5px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+.perfil p {
+    padding-right: 1em;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+
+.encomende {
+    list-style: none;
+}
+
+.home {
+    list-style: none;
+}
+
+.button2 {
+    background-color: #a970ff;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.button1 {
+    background-color: #a970ff;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container img {
+    width: 600px;
+    height: 800px;
+    border: 2px solid black;
+    
+}
+
+.encomende {
+    list-style: none;
+}
+
+
+.button2 {
+    background-color: #a970ff;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.galeria {
+    margin-top: 7em;
+}
+
+.span {
+    font-size: 10px;
+    font-weight: bold;
+}
