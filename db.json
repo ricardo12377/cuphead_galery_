@@ -12,5 +12,79 @@
       "textarea": "ME MAMA",
       "id": 2
     }
+  ],
+  "cart": [
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 1
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 2
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 3
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 4
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 5
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 6
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 7
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 8
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 9
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 10
+    },
+    {
+      "title": "Cuphead",
+      "text": "xablauuuuuuuu",
+      "price": "120",
+      "id": 11
+    },
+    {
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q.",
+      "price": "120",
+      "id": 12
+    }
   ]
 }

@@ -1,6 +1,7 @@
 import style from './Home.module.css'
 import example from '../img/download.jpg'
 import { Link } from "react-router-dom";
+import wallpaper from '../img/wallpaper.jpg'
 
 
 function Home () {
@@ -18,7 +19,7 @@ function Home () {
               <button className={style.button2}>Encomende sua arte</button>
           </Link>
           </div>
-
+             <hr/>
           <div className={style.galeria}>
               <h3>Caso queira uma das nossas artes já prontas, basta conferir nossa galeria de artes.</h3>
               <p>

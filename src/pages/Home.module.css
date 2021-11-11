@@ -3,6 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/90525485_10157503535642620_3202377643676663808_o_0c2792b5.jpeg);
+    color: white;
+    border-bottom: 2px solid black;
 }
 
 
@@ -27,7 +30,8 @@
 }
 
 .galeria {
-    margin-top: 7em;
+    margin-top: 5em;
+    font-size: 20px;
 }
 
 .span {

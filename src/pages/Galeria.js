@@ -15,12 +15,16 @@ import foto12 from '../desenhos/foto12.jpg'
 
 import {useState} from 'react'
 import Modal from '../components/layout/Modal.js'
+import {Component} from 'react'
+import Form2 from '../components/form/Form2'
 
 function Galeria () {
 
      const [isModalVisible, setIsModalVisible] = useState(false) 
+     
 
-   
+    
+     
 
 
 
@@ -30,51 +34,122 @@ function Galeria () {
                 <div>
                     <span className={style.container1}>
                         <img onClick={() => setIsModalVisible(true)} src={foto}  alt="foto" />
-                       {isModalVisible ? <Modal text="xablauuuuuuuu" onClose={() => setIsModalVisible(false)} /> : null}
+                       {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto2} alt="foto2" />
+                        <img src={foto2} onClick={() => setIsModalVisible(true)} alt="foto2" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto3} alt="foto3" />
+                        <img src={foto3}  onClick={() => setIsModalVisible(true)} alt="foto3" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto4} alt="foto4" />
+                        <img src={foto4}  onClick={() => setIsModalVisible(true)} alt="foto4" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto5} alt="foto5" />
+                        <img src={foto5}  onClick={() => setIsModalVisible(true)} alt="foto5" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto6} alt="foto6" />
+                        <img src={foto6}  onClick={() => setIsModalVisible(true)} alt="foto6" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto7} alt="foto7" />
+                        <img src={foto7}  onClick={() => setIsModalVisible(true)} alt="foto7" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto8} alt="foto8" />
+                        <img src={foto8}  onClick={() => setIsModalVisible(true)} alt="foto8" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto9} alt="foto9" />
+                        <img src={foto9}  onClick={() => setIsModalVisible(true)} alt="foto9" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto10} alt="foto10" />
+                        <img src={foto10}  onClick={() => setIsModalVisible(true)} alt="foto10" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto11} alt="foto11" />
+                        <img src={foto11}  onClick={() => setIsModalVisible(true)} alt="foto11" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
 
                     <span>
-                        <img src={foto12} alt="foto12" />
+                        <img src={foto12}  onClick={() => setIsModalVisible(true)} alt="foto12" />
+                        {isModalVisible ? 
+                       <Modal
+                       title="Lorem ipsum" 
+                       text="Lorem ipsum doipiscing elit. In eget suscipit purus, quis ultrices dui. Nam quis gravida tortor. Mauris at ipsum eleifend nisi iaculis suscipit. Vivamus et sem pellentesque dui vehicula lacinia q."
+                       price="120" 
+                       onClose={() => setIsModalVisible(false)} /> : null}
                     </span>
                   
                 </div>

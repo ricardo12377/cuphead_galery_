@@ -16,6 +16,7 @@ function ClientForm () {
     const [email, setEmail] = useState('');
     const [number, setNumber] = useState('');
     const [textarea, setTextarea] = useState('')
+    const [cart, setCart] = useState([])
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -31,6 +32,7 @@ function ClientForm () {
         })
     }
 
+    
 
 
     return(
