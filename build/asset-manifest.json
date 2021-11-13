@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f38524e8.chunk.css",
+    "main.js": "/static/js/main.eb9c0b2a.chunk.js",
+    "main.js.map": "/static/js/main.eb9c0b2a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.bb8737e4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.bb8737e4.js.map",
+    "static/js/2.f02c6b85.chunk.js": "/static/js/2.f02c6b85.chunk.js",
+    "static/js/2.f02c6b85.chunk.js.map": "/static/js/2.f02c6b85.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.f38524e8.chunk.css.map": "/static/css/main.f38524e8.chunk.css.map",
+    "static/js/2.f02c6b85.chunk.js.LICENSE.txt": "/static/js/2.f02c6b85.chunk.js.LICENSE.txt",
+    "static/media/carrinho-carrinho.435da572.png": "/static/media/carrinho-carrinho.435da572.png",
+    "static/media/carrinho.svg.e87f9b36.svg": "/static/media/carrinho.svg.e87f9b36.svg",
+    "static/media/casa.svg.16e21f96.svg": "/static/media/casa.svg.16e21f96.svg",
+    "static/media/foto10.eb153700.jpg": "/static/media/foto10.eb153700.jpg",
+    "static/media/foto3.3a7679bf.jpg": "/static/media/foto3.3a7679bf.jpg",
+    "static/media/foto5.064c2a73.jpg": "/static/media/foto5.064c2a73.jpg",
+    "static/media/instagram.4f5e1f51.jpg": "/static/media/instagram.4f5e1f51.jpg",
+    "static/media/wallpaper.d1ef356d.jpg": "/static/media/wallpaper.d1ef356d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb8737e4.js",
+    "static/js/2.f02c6b85.chunk.js",
+    "static/css/main.f38524e8.chunk.css",
+    "static/js/main.eb9c0b2a.chunk.js"
+  ]
+}
