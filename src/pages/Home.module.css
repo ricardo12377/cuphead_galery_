@@ -6,12 +6,14 @@
     background-image: url(https://lumiere-a.akamaihd.net/v1/images/90525485_10157503535642620_3202377643676663808_o_0c2792b5.jpeg);
     color: white;
     border-bottom: 2px solid black;
+    width: 100vw;
+    height: 600px;
 }
 
 
 .container img {
     width: 600px;
-    height: 800px;
+    height: 1000px;
     border: 2px solid black;
     
 }
@@ -38,3 +40,14 @@
     font-size: 10px;
     font-weight: bold;
 }
+
+    
+@media screen and (max-width: 600px){
+    .container{
+     display: flex;
+     gap: 2em;
+    width: 630px;
+    height: 800px;
+    }
+ 
+ }

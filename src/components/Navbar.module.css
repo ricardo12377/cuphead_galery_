@@ -8,45 +8,44 @@
     display: flex;
     color: #a970ff;
     text-decoration: none;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
     border-bottom: 2px solid black;
+    align-items: center;
+
+}
+
+.lista {
+    display: flex;
+    gap: 2em;
     align-items: center;
 }
 
 
 .perfil{
-     padding-left: 3%;
+     
     color: black;
   
 }
 .text{
     color: black;
+    font-size: 20px;
    
+   
+    
 
 }
 
 .perfil img {
-    padding: 5px;
+   
     width: 100px;
     height: auto;
     border-radius: 50%;
     
 }
-.perfil p {
-    padding-right: 1em;
-}
 
-.lista{
-    list-style: none;
-    text-decoration: none;
-    display: flex;
-    gap: 2em;
-    align-items: center;
-    justify-content: center;
-   padding-right: 5em;
-    width: 500px;
-   
-}
+
+
 
 
 .encomende {
@@ -85,8 +84,22 @@
     position: relative;
     cursor: pointer;
     width: 40px;
-    height: 30px;
+    height: 40px;
 }
+
+
+
+    
+@media screen and (max-width: 600px){
+    .container{
+     display: flex;
+    height: 200px;
+     width: 590px;
+     justify-content: space-between;
+    }
+ 
+ }
+ 
 
 
 

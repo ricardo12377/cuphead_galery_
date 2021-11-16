@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapercave.com/wp/wp2685213.jpg');
+    height: 500px;
+    font-size: 20px;
+}

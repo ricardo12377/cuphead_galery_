@@ -38,3 +38,14 @@
 
 
 
+
+     
+@media screen and (max-width: 600px){
+    .footer{
+     display: flex;
+     gap: 2em;
+    width: 590px;
+    height: 300px;
+    }
+ 
+ }

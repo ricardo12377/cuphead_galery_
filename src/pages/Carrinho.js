@@ -1,3 +1,6 @@
+
+
+
 import { useState, useEffect } from 'react';
 import style from './Carrinho.module.css'
 import {useParams} from 'react-router-dom'
@@ -42,7 +45,7 @@ function Carrinho ({onClose = () => {}}) {
 
                 <div className={style.buttons}>
                  <button className={style.finalizar}>Finalizar</button>
-                 <button className={style.fechar} onClick={onClose} >Fechar</button>
+                 
                 </div>
                
             </div>

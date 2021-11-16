@@ -5,6 +5,7 @@
            padding: 30px;
            font-size: 40px;
            box-sizing: border-box;
+           width: 100vw;
 }
 
 .container img {
@@ -28,3 +29,13 @@ img {
     z-index: 1;
 }
 
+   
+@media screen and (max-width: 600px){
+    .container{
+     display: flex;
+     gap: 2em;
+    width: 630px;
+    
+    }
+ 
+ }

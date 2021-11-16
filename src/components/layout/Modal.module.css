@@ -63,3 +63,31 @@
   
 }
 
+
+     
+@media screen and (max-width: 600px){
+  .container{
+   display: flex;
+  height: 400px;
+  
+  
+ 
+  
+  }
+
+}
+
+     
+@media screen and (max-width: 600px){
+  .modal{
+   display: flex;
+  height: 2190px;
+  width: 810px;
+  padding-bottom: 600px;
+  
+  
+ 
+  
+  }
+
+}

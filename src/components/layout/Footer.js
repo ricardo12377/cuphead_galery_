@@ -1,6 +1,7 @@
 import style from './Footer.module.css'
 import instagram from '../../img/instagram.jpg'
 import twitter from '../../img/twitter.png'
+import "rbx/index.css";
 
 
 
@@ -16,6 +17,8 @@ function Footer () {
             <div className={style.twitter}>
                 <img src={twitter} /> <span>Twitter</span>
             </div>
+
+          
         </footer>
     )
 }

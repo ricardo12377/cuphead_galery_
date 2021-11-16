@@ -1,7 +1,23 @@
+
+
+
 .container_app {
  display: flex;
  flex-direction: column;
- min-width: 100vh;
+ min-width: 100vw;
  min-height: 100vh;
  
 }
+
+
+
+     
+@media screen and (max-width: 600px){
+    .container_app{
+     display: flex;
+     flex-direction: column;
+    width: 590px;
+    
+    }
+ 
+ }
