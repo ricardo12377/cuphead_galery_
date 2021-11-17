@@ -35,7 +35,7 @@ function Carrinho ({onClose = () => {}}) {
         <div className={style.modal}   >
             
             <div className={style.container} >
-                <h1>Carrinho de compras</h1>
+                <h1>Carrinho de Items</h1>
                 <div  >Quantidade:</div>
                 <div className={style.quantidade}>
                  {qnt ? parseInt(qnt.length) : null}

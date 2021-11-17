@@ -12,11 +12,11 @@ function Home () {
             <h1>Cup Head Galery <em><span className={style.span}>A sua galeria de desenhos retrôs</span></em></h1>
             </div>
             <div>
-                <h2>Encomende a sua</h2>
-                <p>Se deseja um arte pesonalizada, clique no botao e preencha o formulário com as informações necessárias.</p>
+                <h2>Encomende a sua arte da forma que desejar.</h2>
+               
                 <div  className={style.encomende}>
           <Link to="/cadastro">
-              <button className={style.button2}>Encomende sua arte</button>
+              <button className={style.button2}>Formulário de pedido</button>
           </Link>
           </div>
              <hr/>
