@@ -3,17 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('https://wallpapercave.com/wp/wp2685213.jpg');
-    height: 500px;
+    background-color: rgb(49, 48, 48) ;
+    height: 600px;
     font-size: 20px;
+    color: greenyellow;
+    
     
 }
 
-.container h1 {
-    border-bottom: 1px solid black;
-    margin-bottom: 2em;
+.carrinho {
+  width: 500px;
+  height: 400px;
+  background-color:black ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 .2rem 0.5rem white;
 }
 
-.container div {
-    border-bottom: 1px solid black;
+
+.carrinho h1 {
+    
+    padding: 0.3em;
+}
+
+
+.finalizar {
+    background-color: greenyellow ;
+    color: black;
+    border-radius: 15px;
+    border: 3px solid black;
+    padding: .4em;
 }

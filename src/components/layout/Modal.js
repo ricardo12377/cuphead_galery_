@@ -2,6 +2,7 @@ import style from './Modal.module.css'
 import { icons } from 'react-icons';
 import { useState} from 'react'
 
+
 function Modal  ({title, text, price, onClose = () => {}})  {
 
   const [cart, setCart] = useState([])
@@ -32,7 +33,7 @@ function Modal  ({title, text, price, onClose = () => {}})  {
               <div className={style.title}>
                    <h1 id="title" name="title">{title}</h1>
               </div>
-              
+            
               <div  className={style.text}>
                   <div>Sobre o desenho:</div>
               <p id="text" name="text">{text}</p>

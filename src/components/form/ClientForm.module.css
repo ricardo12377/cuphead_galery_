@@ -1,10 +1,11 @@
 .form_container{
     display: flex;
     flex-direction: column;
-    height: 400px;
+    height: 600px;
   align-items: center;
-    background-image: url(https://wallpaperforu.com/wp-content/uploads/2020/11/vector-wallpaper-2011262149424.jpg);
+    background-image: url(https://i.pinimg.com/originals/70/00/9c/70009c0f575dba9986c8bc6746f1c51d.jpg);
     justify-content: center;
+    color: greenyellow;
 }
 
 
@@ -17,3 +18,10 @@
     margin-bottom: 1em;
 }
 
+
+.button{
+
+ background-color: greenyellow;
+ border: 3px solid black;
+ border-radius: 15px;
+}

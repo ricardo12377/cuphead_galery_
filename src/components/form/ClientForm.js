@@ -64,9 +64,9 @@ function ClientForm () {
                name="textarea" 
                id="textarea" 
                onChange={(e) => setTextarea(e.target.value)} 
-               placeholder="Digite sua mensagem"></textarea>
+               placeholder="Detalhe como deseja a sua arte"></textarea>
             </div>
-            <button type="submit">Enviar</button>
+            <button className={style.button} type="submit">Enviar</button>
         </form>
 
     )

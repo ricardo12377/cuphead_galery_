@@ -17,35 +17,31 @@ function Navbar () {
 
 
     return (
-        <nav className={style.container}>
+        <nav className={style.container}  >
             
         <div className={style.perfil}>
-            <img src={foto} alt="foto1" />
-            <div>Mr.Cup Head Artist.</div>
+            <div>Cup Head Galery</div>
         </div>
 
-                <div className={style.text}>
-                <h2>Galeria de desenhos</h2>
-                </div>
 
-           
+        <section  className={style.lista}>
+           <div>
+            <Link   className={style.item_lista} to="/">Home</Link>
+           </div>
 
-                <div className={style.lista}>
-                <div  className={style.home}>
-                <Link to="/">
-                <img src={casasvg} />
-                </Link>
-                </div>
+           <div >
+            <Link  className={style.item_lista} to="/cadastro">Pedido personalizado</Link>
+           </div>
 
-                                <div className={style.lista}>
-                                
-                                <Link to="/carrinho">
-                                <img src={carrinhosvg} className={style.carrinho_container} alt="carrinho"  />
-                                </Link>
-                                </div>
+           <div  >
+            <Link   className={style.item_lista} to="/carrinho">Carrinho</Link>
+           </div>
+        </section>
        
+
+             
             
-        </div>
+        
         </nav>
 
     )

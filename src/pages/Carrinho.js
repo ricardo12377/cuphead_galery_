@@ -32,9 +32,9 @@ function Carrinho ({onClose = () => {}}) {
     
 
     return(
-        <div className={style.modal}   >
+        <div className={style.container}  >
             
-            <div className={style.container} >
+            <div   className={style.carrinho} >
                 <h1>Carrinho de Items</h1>
                 <div  >Quantidade:</div>
                 <div className={style.quantidade}>
