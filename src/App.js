@@ -13,15 +13,7 @@ import ClientForm from './components/form/ClientForm';
 import Galeria from './pages/Galeria';
 import Form2 from './components/form/Form2';
 import Footer from './components/layout/Footer';
-
 import Carrinho from './pages/Carrinho';
-
-
-
-
-
-
-
 
 function App () {
   return(
@@ -39,14 +31,7 @@ function App () {
       <Footer />
     </div>
     </Router>
-    </section>
-   
-  
-    
-  
-   
-   
-   
+    </section>   
 )
 }
 
